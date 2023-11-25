@@ -11,7 +11,7 @@ public class Part2_2 {
             System.out.printf("数字%dつ目：",i+1);
             num[i] = input.nextInt();
         }
-        keisan.sum(num);
-        keisan.ifwhich();
+        keisan.sum(num);       //合計値の算出と表示
+        keisan.ifwhich();      //合計値が100以上、50以上100未満、50未満かどうか判定
     }
 }

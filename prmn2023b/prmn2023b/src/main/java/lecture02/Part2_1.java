@@ -8,7 +8,7 @@ public class Part2_1 {
 
         System.out.print("学籍番号を入力してください。:");
         String gakuseki = input.next();
-        gaku.ifcomp(gakuseki);
+        gaku.ifcomp(gakuseki); //所持している学籍番号と入力したものが一致しているのか判定
 
     }
 }
