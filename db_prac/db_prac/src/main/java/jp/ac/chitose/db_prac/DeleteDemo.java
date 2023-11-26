@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class DeleteDemo {
     public static void main(String[] args) {
-        System.out,print("中間テストの点数を削除する学生コードは？：");
+        System.out.print("中間テストの点数を削除する学生コードは？：");
         Scanner input = new Scanner(System.in);
         String gakusekiCode = input.nextLine();
 
